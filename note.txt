@@ -1,0 +1,18 @@
+  section 
+  container
+  row
+  col
+  wrapper
+  content          header
+                   container
+                   content
+
+
+
+
+research
+        color
+        fontfamily
+                      poppins (400, 500,700)
+                      robo button 400
+        padding
