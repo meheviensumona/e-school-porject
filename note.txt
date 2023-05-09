@@ -11,8 +11,20 @@
 
 
 research
-        color
+        
         fontfamily
                       poppins (400, 500,700)
                       robo button 400
         padding
+
+fontfamily 
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+
+color  
+       black #000000
+       red  #FD511A
+       green  #21B573 
+       grn #F0FFF0
+       white  #FFFFFF
+       grn #F8FFFB          
