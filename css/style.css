@@ -190,12 +190,16 @@ header{
 
 /* footer start */
 .footer{
-    padding:50px 0px 50px;
+    padding:50px 0px 10px;
 
 }
 .f_p{
     color: #FFFFFF;
-    
+   
+ }
+ 
+ .p{
+    padding-top: 6px;
  }
 .f_a p a{
     text-decoration: none;
@@ -204,3 +208,16 @@ header{
 }
 .h_5{}
 /* footer end */
+
+/* start copy */
+.cr{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+.cr p a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+/* end copy */

@@ -73,6 +73,16 @@ font-size: 15px;
 }
 /* end courses */
 
+/* footer start */
+.fp{
+    padding:
+    
+ }
+ .f_p{
+    text-align: center;
+ }
+/* footer end */
+
 }
 
 /*  Small devices (landscape phones, 576px and up) */
@@ -134,6 +144,16 @@ font-size: 15px;
     margin: 30px 80px 0px;
 /* course end */
 }
+/* footer start */
+.fp{
+    padding:0px 60
+    spx; 
+    
+ }
+ .f_p{
+    text-align: center;
+ }
+/* footer end */
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -186,6 +206,16 @@ font-size: 15px;
         margin: 40px 150px 0px;
 }
 /* course end */
+
+/* footer start */
+.fp{
+    padding:0px 120px; 
+    
+ }
+ .f_p{
+    text-align: center;
+ }
+/* footer end */
 }
 
  /* Large devices (desktops, 992px and up) */
