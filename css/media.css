@@ -1,19 +1,216 @@
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+/*start header*/
+    .meno ul li a {
+        padding: 0 10px !important;
+        margin-top: 8px;
+    }
+    .btn_s {
+        width: 90px;
+        height: 40px;
+        margin-left: 2px;
+    }
+
+ /*end header*/
+
+/* banner start*/
+.b_t{
+    text-align: center;
+ }
+    .b_p1 {
+        color: #FD511A;
+        line-height: 24px;
+        padding-top: 15px;
+    }
+    .b_h1{
+        font-size: 35px;
+        line-height: 45px;
+        padding: 0px;    
+    }
+    .b_p2{
+        padding: 0px;
+        line-height: 25px;
+    }.btn_get{
+        margin: 15px auto 0;
+        width: 280px;
+    }
+
+    .b_img {
+        padding: 0px;
+    }
+
+/*banner end */
+
+/* feature start */
+.feature {
+    padding: 0px 0 50px;
+}
+.f_item{
+    margin-top: 25px;
+  }
+
+/* feature end */
+
+/* course start */
+.c_item{
+    margin-top: 40px;
+}
+/* course end */
+
+
+ /* start courses */
+ .c_item { 
+    padding: 25px 16px 30px;
+}
+.l_item:not(:last-child) {
+    margin-right: 0px !important;
+}
+.l_img{
+    width: 20px;
+}
+.l_span{
+font-size: 15px;
+}
+/* end courses */
+
 }
 
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
- 
+ /* header start */
+    .meno ul li a {
+        padding: 0 10px !important;
+        margin-top: 8px;
+    }
+    .btn_s {
+        width: 104px;
+        height: 43px;
+        margin-left: 0px;
+    }
+/*end header*/
+
+/* banner start*/
+   
+ .b_t{
+    text-align: center;
  }
+    .b_p1 {
+        color: #FD511A;
+        line-height: 24px;
+        padding-top: 15px;
+    }
+    .b_h1{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 45px;
+        padding: 0 80px;    
+    }
+    .b_p2{
+        padding: 0 50px;
+        line-height: 30px;
+    }.btn_get{
+        margin: 15px auto 0;
+        width: 350px;
+    }
+
+    .b_img {
+        padding: 0 60px;
+    }
+
+/*banner end */
+/* start feature */
+.feature {
+    padding: 0px 0 60px;
+}
+.f_item{
+    margin-top: 25px;
+}
+/* end feature */
+/* course start */
+.course {
+    padding-bottom: 60px;
+}
+.c_item {
+    margin: 30px 80px 0px;
+/* course end */
+}
+}
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-
+/*header start*/
+.meno ul li a {
+    padding: 0 10px !important;
+    margin-top: 10px !important;
+}
+.btn_s {
+    width: 104px;
+    height: 43px;
+    margin-left: 0px;
+}
+ /*banner start */
+ .b_t{
+    text-align: center;
  }
+ .b_img {
+    padding: 0 100px;
+    margin-bottom: 30px;
+}
+.b_h1 {
+    margin: 10px 0 20px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    padding: 0 117px;
+}
+.b_p2{
+    padding: 0 113px;
+}
+.btn_get {
+    margin: 15px auto 0px;
+}
+/* banner end */
+/* start feature */
+.feature {
+    padding: 0px 0 80px;
+}
+.f_item{
+    margin-top: 25px;
+}
+/* end feature */
+/* course start */
+.course{
+    padding-bottom: 80px;
+}
+.c_item {
+        margin: 40px 150px 0px;
+}
+/* course end */
+}
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /* start header */
+    .btn_s{
+        margin-left: 15px; 
+    }
+    /* start banner*/
+
+    /* start courses */
+    .c_item { 
+        padding: 25px 16px 30px;
+    }
+    .l_item:not(:last-child) {
+        margin-right: 1px !important;
+    }
+    .l_img{
+        width: 20px;
+    }
+    .l_span{
+    font-size: 15px;
+    }
+    /* end courses */
 
  }
 
@@ -23,5 +220,5 @@
  }
  /* Extra Extra large devices (large desktops, 1200px and up) */
  @media (min-width: 1400px) { 
-    
+
   }

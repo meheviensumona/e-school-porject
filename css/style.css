@@ -1,16 +1,14 @@
-/* font link */
+/* fonts links */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 /* common start */
 body{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400px;
-    color: ;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400px !important;
+    color: black !important;       
 }
 /* common end */   
 
@@ -18,12 +16,14 @@ body{
 /* header start */
 header{
     background-color: #F0FFF0;
-    padding: 12px 0px;
-    
+    padding: 12px 0px; 
 }
 .cnav{}
 .logo{
     width: 198px;
+}
+.ntc:focus {
+    box-shadow:none !important;
 }
 .meno{}
 .meno ul li a{
@@ -34,16 +34,173 @@ header{
     color: #FD511A !important;
 }
 .btn_c{
-    display: flex;
+    font-family: 'Roboto', sans-serif !important;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     background-color: #21B573 !important;
     border-radius: 33px !important;
+    border: none !important;
+    color: white !important;
 }
 .btn_s{
     width: 105px;
     height: 45px;
-    
+    margin-left: 15px;  
+}
+.btn_c:hover{
+    background-color: red !important;
+    color: #F0FFF0 !important;
+}
+.btn_c:active {
+    background-color: red !important;
+    color: #F0FFF0 !important;
+}
+/* header end */
+
+
+
+/* banner start  */
+.banner{
+    background-color: #F0FFF0;
+    padding-bottom:60px;
+}
+.b_t{ 
+}
+.b_p1{
+    color: #FD511A;
+    line-height: 24px; 
+}
+.b_h1{  
+    margin: 10px 0 20px; 
+    padding-right: 14px;    
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.b_h1 span {
+    color: #21B573;
+}
+.b_p2{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.b_img{
+
+}
+.b_img img{
+    width: 100%;
+}
+.btn_get{
+    margin-top: 15px;
+    width: 155px;
+    height: 45px;
 }
 
-/* header end */
+/* banner end */
+
+
+/* feature start */
+.feature{
+    padding: 45px 0 100px;
+}
+.f_item{
+    background-color: #F0FFF0;
+    padding: 55px 0 50px;  
+    border-radius: 10px;
+    text-align: center;
+    transition: .33s;
+}
+.f_item:hover {
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.1);
+}
+.f_img{
+    margin: 0 auto 20px;
+    width: 65px;
+    height: 85px;
+}
+.f_h2{
+    padding-top: 6px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.f_p{
+    padding-top: 10px;
+}
+/* feature end */
+
+
+
+/* course start */
+/* first row */
+.course{
+    padding-bottom: 100px;
+}
+.c_title{}
+.c_h1{
+    font-size: 36px;
+    font-weight: 700px !important;
+     line-height: 54px;  
+}
+/* second row */
+.c_item{
+    margin-top: 60px;
+    padding: 25px 20px 30px;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
+    border-radius: 18px;
+   
+}
+.c_img{}
+.c_img img{
+    width: 100%;
+}
+.c_h2{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500px;
+    color:black;
+    line-height: 36px;
+}
+.c_p{
+    margin-top: 5px;
+    line-height: 24px;
+}
+.btn_course{
+    margin-top:20px;
+    margin-bottom: 35px;
+    width: 140px !important;
+    height: 35px !important;
+}
+.c_footer{
+   
+}
+.c_left{
+
+}
+.c_right{}
+
+
+.l_item:not(:last-child) {
+    margin-right: 3px !important;
+}
+
+
+/* course end */
+
+/* footer start */
+.footer{
+    padding:50px 0px 50px;
+
+}
+.f_p{
+    color: #FFFFFF;
+    
+ }
+.f_a p a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.h_5{}
+/* footer end */
