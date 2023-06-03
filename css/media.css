@@ -10,31 +10,28 @@
         height: 40px;
         margin-left: 2px;
     }
-
  /*end header*/
-
 /* banner start*/
-.b_t{
-    text-align: center;
- }
+    .b_t {
+        text-align: center;
+    }
     .b_p1 {
         color: #FD511A;
         line-height: 24px;
         padding-top: 15px;
     }
-    .b_h1{
+    .b_h1 {
         font-size: 35px;
         line-height: 45px;
         padding: 0px;    
     }
-    .b_p2{
+    .b_p2 {
         padding: 0px;
         line-height: 25px;
-    }.btn_get{
+    }.btn_get {
         margin: 15px auto 0;
         width: 280px;
     }
-
     .b_img {
         padding: 0px;
     }
@@ -43,7 +40,7 @@
 
 /* feature start */
 .feature {
-    padding: 0px 0 50px;
+    padding: 0px 0 40px;
 }
 .f_item{
     margin-top: 25px;
@@ -51,15 +48,16 @@
 
 /* feature end */
 
-/* course start */
-.c_item{
-    margin-top: 40px;
-}
-/* course end */
+
 
 
  /* start courses */
+ .c_h1{
+    margin-top: 0px;
+    font-size: 30px;
+ }
  .c_item { 
+    margin-top: 40px;
     padding: 25px 16px 30px;
 }
 .l_item:not(:last-child) {
@@ -71,7 +69,21 @@
 .l_span{
 font-size: 15px;
 }
+.course {
+    padding-bottom: 40px;
+}
 /* end courses */
+
+/* Testimonial start */
+.caro_img {
+    justify-content: center !important;
+    padding-top: 20px;
+}
+.caro_p {
+    text-align: center;
+    padding-top: 15px;
+    }
+/* Testimonial end */
 
 /* footer start */
 .fp{
@@ -137,13 +149,30 @@ font-size: 15px;
 }
 /* end feature */
 /* course start */
+.c_h1{
+      margin-top: -9px;
+}
 .course {
     padding-bottom: 60px;
 }
 .c_item {
     margin: 30px 80px 0px;
-/* course end */
 }
+/* course end */
+
+/* Testimonial start */
+     .caro_img {
+        align-items: center;
+        justify-content: center !important;
+        padding-top: 20px;
+    }
+    .caro_p {
+        padding: 20px 60px;
+        text-align: center;
+        }
+/* Testimonial end */
+
+
 /* footer start */
 .fp{
     padding:0px 60
@@ -205,7 +234,23 @@ font-size: 15px;
 .c_item {
         margin: 40px 150px 0px;
 }
+.c_h1 {
+    margin-top: -27px;
+}
 /* course end */
+
+ /* Testimonial start */
+    .caro_img{
+        align-items: center;
+        justify-content: center !important;
+        padding-top: 20px;
+    }
+    .caro_p{
+        padding: 20px 60px;
+        text-align: center;
+        }
+/* Testimonial end */
+
 
 /* footer start */
 .fp{
@@ -241,6 +286,17 @@ font-size: 15px;
     font-size: 15px;
     }
     /* end courses */
+    /* Testimonial start */
+    .carousel_indi {
+        bottom: -60px;
+    }
+
+    .t_slider {
+        line-height: 28px;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    /* Testimonial end */
 
  }
 
