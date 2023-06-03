@@ -252,6 +252,9 @@ header{
 .caro_img {
     width: 100%; 
 }
+.caro_img_2{
+    border-radius: 50%;
+}
 .c_ind {
     margin-bottom: -23px !important;
 }
